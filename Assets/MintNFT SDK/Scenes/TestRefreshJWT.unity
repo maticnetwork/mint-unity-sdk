@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5049b25aac1727348b2e03e92a77f463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallet: 0x80FB67Cf03190976bc2F5C2131A942cbdefFdBAc
+  wallet: 
 --- !u!4 &348802656
 Transform:
   m_ObjectHideFlags: 0
