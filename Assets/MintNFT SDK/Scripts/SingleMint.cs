@@ -32,6 +32,7 @@ public class SingleMint : MonoBehaviour
     public UnityEvent mintFail;
 
     private string apiKey = "ad072490-b517-4010-a052-377b88fa7188"; // API key from website
+    private string jwt;
 
     private string mintData; // Stores stringified Json for Mint request body
 
@@ -122,7 +123,7 @@ public class SingleMint : MonoBehaviour
     // Mint request to endpoint - Post upload success
     private async void StartMint()
     {
-        string result = await MintNFT.Mint(apiKey, mintData);
+        string result = await MintNFT.Mint(apiKey, jwt, mintData);
 
         if (result.Contains("ERROR"))
         {
