@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.unity.collab-proxy": "1.15.17",
+    "com.henryhoffman.unlockprotocol": "https://github.com/thehen/unlock-unity-package.git?path=/Unlock%20Unity%20Package",
     "com.unity.connect.share": "4.2.3",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.14",
